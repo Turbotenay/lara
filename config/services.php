@@ -13,7 +13,9 @@ return [
     | a conventional file to locate the various service credentials.
     |
     */
-
+    'telegram-bot-api' => [
+        'token' => env('TELEGRAM_BOT_TOKEN', '7480381394:AAHVj2e86bipGrRjW09xNI0i-ju2TAChi0Y')
+    ],
     'postmark' => [
         'token' => env('POSTMARK_TOKEN'),
     ],
