@@ -16,7 +16,7 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-white border-b border-gray-200">
-                    <a href="{{ route('posts.create') }}" class="btn btn-primary mb-4">Create Post</a>
+                    <!-- <a href="{{ route('posts.create') }}" class="btn btn-primary mb-4">Create Post</a> -->
 
                     <table class="min-w-full divide-y divide-gray-200 overflow-x-auto" id="posts-table">
                         <thead class="bg-gray-50">
