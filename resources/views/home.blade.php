@@ -19,13 +19,13 @@
             <div class="mx-auto flex max-w-[480px] flex-row items-center text-left">
               <img src="https://via.placeholder.com/64" alt="" class="mr-4 inline-block h-16 w-16 rounded-full object-cover" />
               <div class="flex flex-col items-start">
-                <h6 class="text-base font-semibold">
+                <!-- <h6 class="text-base font-semibold">
                 @if ($post->user)
                     {{ $post->user->name }}
                 @else
                     <span class="text-gray-500">Guest</span>
                 @endif
-                </h6>
+                </h6> -->
                 <div class="flex items-start max-[991px]:flex-col lg:items-center">
                   <p class="text-sm text-[#636262]">{{ $post->created_at->format('M d, Y') }}</p>
                 </div>
