@@ -34,5 +34,5 @@
         </div>
     </div>
     <img src="https://assets.website-files.com/63904f663019b0d8edf8d57c/639832e3e7aba393eeeba215_plain6.svg" alt="" class="absolute bottom-auto left-0 right-auto top-0 inline-block sm:bottom-auto sm:left-4 sm:right-auto sm:top-8 md:left-20 md:top-16" />
-    <!-- <x-footer /> -->
+    <x-footer />
 </x-guest-layout>

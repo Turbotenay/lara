@@ -97,11 +97,11 @@
     </div>
 </x-app-layout>
 
-<script>
+<!-- <script>
     console.log(@json($contentLimit));
     if (!$.fn.DataTable.isDataTable('#posts-table')) {
         $('#posts-table').DataTable({
             "order": [[2, "desc"]]
         });
     }
-</script>
+</script> -->
